@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/nigelpage/Gopher/pkg/getGopher"
 
 func main() {
-	fmt.Println("Locked and loaded (again)!")
+	println(getGopher.PunxatawnyPhil())
 }
